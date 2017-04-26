@@ -1,0 +1,130 @@
+html {
+  font-size: 20px;
+  line-height: 1.4;
+  max-width: 600px;
+  background-color: #F0AC97;
+}
+
+body {
+  font-family: helvetica;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -180px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: teal;
+  box-shadow: 30px 20px 10px #888888;
+  width:35%;
+}
+
+h1 {
+  text-align: center;
+  background-color: #910000;
+  color: #FFF7C7;
+  border-radius: 10px;
+
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+ul {
+  background-color: #910000;
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+  color: #FFF7C7;
+  background: #D1BC47;
+  letter-spacing: 2px;
+  
+  margin: 5px 10px;
+  border-radius: 5px;
+  border: 1px #888 solid;
+  line-height: 1.5;
+  cursor: pointer;
+  margin-bottom: 0;
+  padding: 5px;
+  }
+
+i {
+  float: left;
+  margin: 10px;
+ 
+}
+
+ul.player i#playing {
+  color: white; 
+}
+
+ul.player li#playing {
+  color: white; 
+}
+
+.play {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  border: 2px solid black;
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+  background-color: gray;
+  color: #FFF7C7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.pause {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  border: 2px solid black;
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+  background-color: gray;
+  color: #FFF7C7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.skip {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  border: 2px solid black;
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+  background-color: gray;
+  color: #FFF7C7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
